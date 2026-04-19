@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Marcas de Coches</title>
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="recursos/logo.png" alt="Logo de la wiki"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="guia.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Guía</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="guia.html">Ver todo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="mapa.html">Mapa</a></li>
+                            <li><a class="dropdown-item" href="estaciones.html">Estaciones</a></li>
+                            <li><a class="dropdown-item" href="misiones.html">Misiones</a></li>
+                            <li><a class="dropdown-item" href="logros.html">Logros</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="coches.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Coches</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="coches.html">Ver todo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item active" aria-current="page" href="marcasCoches.html">Marcas</a>
+                            </li>
+                            <li><a class="dropdown-item" href="tiposCoches.html">Tipos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar" />
+                    <button class="btn btn-outline-success" type="submit">Ir</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARDS DE TRES MARCAS DE COCHE DEL JUEGO -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="recursos/hcivictyper2007.jpg" class="card-img-top" alt="Honda Civic Type-R 2007 rojo">
+                    <div class="card-body">
+                        <h5 class="card-title">Honda Civic Type-R 2007</h5>
+                        <p class="card-text">El Honda Civic Type R de 2007, abreviado como Honda Civic '07 y
+                            anteriormente conocido como Honda Civic Type-R, es un deportivo compacto de tracción
+                            delantera fabricado por Honda.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="recursos/chevroletcorvette.jpg" class="card-img-top" alt="Chevrolet Corvette">
+                    <div class="card-body">
+                        <h5 class="card-title">Chevrolet Corvette Stingray Coupé</h5>
+                        <p class="card-text">El Chevrolet Corvette Stingray Coupé 2020 es un deportivo de tracción
+                            trasera fabricado por Chevrolet. Aparece en Forza Horizon 4 como parte de la Actualización
+                            31 y en todos los títulos posteriores de la saga principal. También está previsto que
+                            aparezca en Forza Horizon 6.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="recursos/forddeluxe.jpg" class="card-img-top" alt="Ford De Luxe Five-Window Coupe">
+                    <div class="card-body">
+                        <h5 class="card-title">Ford De Luxe Five-Window Coupe</h5>
+                        <p class="card-text">El Ford De Luxe Five-Window Coupé de 1932, abreviado como "Ford Coupé '32",
+                            es un coupé clásico de tracción trasera fabricado por Ford. Aparece en Forza Horizon 3 como
+                            parte de la expansión Hot Wheels y en todos los títulos posteriores de la serie Horizon, así
+                            como en Forza Motorsport 7. Además, está previsto que aparezca en Forza Horizon 6.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

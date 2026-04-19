@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Forza Horizon 4 Wiki</title>
+</head>
+
+<body>
+  <!-- BARRA DE NAVEGACION-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="recursos/logo.png" alt="Logo de la wiki"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="guia.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Guía</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="guia.html">Ver todo</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="mapa.html">Mapa</a></li>
+              <li><a class="dropdown-item" href="estaciones.html">Estaciones</a></li>
+              <li><a class="dropdown-item" href="misiones.html">Misiones</a></li>
+              <li><a class="dropdown-item" href="logros.html">Logros</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="coches.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Coches</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="coches.html">Ver todo</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="marcasCoches.html">Marcas</a></li>
+              <li><a class="dropdown-item" href="tiposCoches.html">Tipos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar" />
+          <button class="btn btn-outline-success" type="submit">Ir</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL CON INDICADORES -->
+  <div id="carouselConIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselConIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselConIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselConIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="recursos/primavera.jpeg" class="d-block w-100" alt="Coche aparacado en primavera">
+      </div>
+      <div class="carousel-item">
+        <img src="recursos/otonio.jpg" class="d-block w-100" alt="Dos coches corriendo por un bosque otoñal">
+      </div>
+      <div class="carousel-item">
+        <img src="recursos/invierno.jpg" class="d-block w-100" alt="Coche frente a un puente de piedra en invierno">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselConIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Atras</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselConIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <h2>Bienvenidx a la Wiki de Forza Horizon 4</h2>
+        <p>Forza Horizon 4 es la cuarta parte de la saga de conducción en mundo abierto de Microsoft y PlayGround Games.
+          Trasladándonos a un enorme mapeado que recrea Reino Unido casi en su totalidad, la nueva entrega apuesta por
+          incluir más coches, más eventos y competiciones, mejorar los gráficos y ofrecer un sistema de estaciones en
+          tiempo real que nos ofrece la posibilidad de pilotar en verano, otoño, invierno y primavera.</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <h3>Información rápida</h3>
+        <ul>
+          <li>Desarrollador: Microsoft y PlayGround Games</li>
+          <li>Lanzamiento: 2/10/2018</li>
+          <li>Plataformas: Xbox One, Windows 10/11 y optimizado para Xbox Series X|S</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <a href="coches.html" class="btn btn-primary">Ver coches</a>
+        <a href="guia.html" class="btn btn-danger">Ver guía</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

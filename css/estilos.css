@@ -1,0 +1,28 @@
+:root {
+    --fondo-general: #1A222D;
+    --fondo-secundario: #152139;
+    --color-acento: #F69D2F;
+    --elementos-apoyo: #50799D;
+    --texto-general: #EBEAEF;
+}
+
+body{
+    background-color: var(--fondo-general);
+    color: var(--texto-general);
+}
+
+.navbar-brand img{
+    height: 145px;
+}
+
+.navbar{
+    background-color: var(--elementos-apoyo);
+}
+
+.nav-link{
+    color: var(--texto-general);
+}
+
+.nav-link:hover, .nav-link:active{
+    color: var(--fondo-general);
+}

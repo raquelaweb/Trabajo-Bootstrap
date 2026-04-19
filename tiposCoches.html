@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Tipos de Coches</title>
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="recursos/logo.png" alt="Logo de la wiki"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="guia.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Guía</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="guia.html">Ver todo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="mapa.html">Mapa</a></li>
+                            <li><a class="dropdown-item" href="estaciones.html">Estaciones</a></li>
+                            <li><a class="dropdown-item" href="misiones.html">Misiones</a></li>
+                            <li><a class="dropdown-item" href="logros.html">Logros</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" aria-current="page" href="coches.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Coches</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="coches.html">Ver todo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="marcasCoches.html">Marcas</a></li>
+                            <li><a class="dropdown-item" href="tiposCoches.html">Tipos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar" />
+                    <button class="btn btn-outline-success" type="submit">Ir</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARDS DE TIPOS DE COCHE (todoterreno, deportivo...)-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Todoterrenos</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Coches todo terreno</h6>
+                        <p class="card-text">Este vehículo está diseñado para circular por superficies difíciles,
+                            irregulares o no pavimentadas (arena, barro, rocas) gracias a su tracción 4x4, gran altura y
+                            motor potente.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Deportivos</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Coches deportivos</h6>
+                        <p class="card-text">Este vehículo está diseñado para maximizar el rendimiento, la agilidad y la
+                            experiencia de conducción, priorizando la velocidad y el manejo sobre la practicidad o el
+                            espacio. Se caracterizan por ser ligeros, tener motores potentes, suspensiones firmes,
+                            centro de gravedad bajo y una estética aerodinámica.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Históricos</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Coches retro antiguos</h6>
+                        <p class="card-text">Un coche es considerado histórico principalmente cuando tiene más de 30
+                            años desde su primera matriculación o fabricación, ha dejado de producirse, y está en su
+                            estado original sin cambios técnicos fundamentales</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
