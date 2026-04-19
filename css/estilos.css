@@ -21,9 +21,25 @@ body{
 
 .nav-link{
     color: var(--texto-general);
+    padding: 0 1.5rem;
+    font-size: 1.1rem;
 }
 
 .nav-link:hover, .nav-link:active{
+    color: var(--fondo-general);
+}
+
+.navbar-toggler {
+    border-color: var(--texto-general);
+}
+
+.btn-outline-success {
+    color: var(--color-acento);
+    border-color: var(--color-acento);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--color-acento);
     color: var(--fondo-general);
 }
 
