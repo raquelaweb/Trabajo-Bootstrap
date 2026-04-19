@@ -26,3 +26,19 @@ body{
 .nav-link:hover, .nav-link:active{
     color: var(--fondo-general);
 }
+
+.carousel-item img{
+    max-height: 560px;
+    object-fit: cover;
+}
+
+.row{
+    align-items: stretch;
+}
+
+.card {
+    background-color: var(--fondo-secundario);
+    color: var(--texto-general);
+    border: 2px solid var(--color-acento);
+    height: 100%;
+}
