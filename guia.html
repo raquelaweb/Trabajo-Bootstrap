@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/estilos.css">
   <title>Guía del juego</title>
 </head>
@@ -44,7 +47,8 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="coches.html">Ver todo</a></li>
               <li>
-                <hr class="dropdown-divider"> <!-- Divisor para separar la página principal de la sección de las subsecciones-->
+                <hr class="dropdown-divider">
+                <!-- Divisor para separar la página principal de la sección de las subsecciones-->
               </li>
               <li><a class="dropdown-item" href="marcasCoches.html">Marcas</a></li>
               <li><a class="dropdown-item" href="tiposCoches.html">Tipos</a></li>
@@ -62,81 +66,89 @@
     </div>
   </nav>
 
-  <!-- INTRODUCCIÓN A LA GUÍA DEL JUEGO-->
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-8">
-        <h2>Guía del juego</h2>
-        <p>Bienvenidx a la guía de Forza Horizon 4. Aquí podrás encontrar información muy útil e interesante sobre
-          distintos aspectos del juego. Desde los coches que lo componen hasta las zonas más recónditas de su mapa, o
-          las estaciones por las que pasarás y como afecta cada una al gameplay y ecosistema del juego.</p>
-      </div>
-      <div class="col-12 col-md-4">
-        <h3>Requisitos mínimos en PC</h3>
-        <ul>
-          <li>Sistema Operativo: Windows 10 (64-bit)</li>
-          <li>Procesador (CPU): Intel Core i3-4170 @ 3.7Ghz o Intel i5-750 @ 2.67Ghz</li>
-          <li>Memoria RAM: 8 GB</li>
-          <li>Tarjeta Gráfica (GPU): NVidia 650TI / NVidia GT 740 o AMD R7 250X (2 GB VRAM)</li>
-          <li>DirectX: Versión 12</li>
-          <li>Almacenamiento: Al menos 55 GB a 80 GB de espacio libre (se recomienda SSD para un mejor rendimiento).
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- PREGUNTAS FRECUENTES CON BOTONES COLLAPSE-->
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-8">
-        <h3>FAQ</h3>
-        <p>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta1"
-            aria-expanded="false" aria-controls="pregunta1">
-            ¿Se puede jugar sin conexión a Internet?
-          </button>
-        </p>
-        <div style="min-height: 120px;">
-          <div class="collapse collapse-horizontal" id="pregunta1">
-            <div class="card card-body" style="width: 300px;">
-              Sí, el modo un solo jugador está disponible totalmente offline, con "Drivatars" simulando otros jugadores.
-            </div>
-          </div>
+  <main>
+    <!-- INTRODUCCIÓN A LA GUÍA DEL JUEGO-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <h2>Guía del juego</h2>
+          <p>Bienvenidx a la guía de Forza Horizon 4. Aquí podrás encontrar información muy útil e interesante sobre
+            distintos aspectos del juego. Desde los coches que lo componen hasta las zonas más recónditas de su mapa, o
+            las estaciones por las que pasarás y como afecta cada una al gameplay y ecosistema del juego.</p>
         </div>
-
-        <p>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta2"
-            aria-expanded="false" aria-controls="pregunta2">
-            ¿Por qué el juego desapareció de las tiendas?
-          </button>
-        </p>
-        <div style="min-height: 120px;">
-          <div class="collapse collapse-horizontal" id="pregunta2">
-            <div class="card card-body" style="width: 300px;">
-              Debido a la finalización de acuerdos de licencia. El soporte oficial se mantiene en <a href="https://support.forza.net/hc/en-us">Forza Support</a>.
-            </div>
-          </div>
-        </div>
-
-        <p>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta3"
-            aria-expanded="false" aria-controls="pregunta3">
-            ¿Dónde puedo comprar el juego ahora?
-          </button>
-        </p>
-        <div style="min-height: 120px;">
-          <div class="collapse collapse-horizontal" id="pregunta3">
-            <div class="card card-body" style="width: 300px;">
-              Tras retirarse de la tienda oficial, opciones como Instant Gaming o Eneba pueden tener claves, o mediante copias físicas.
-            </div>
-          </div>
+        <div class="col-12 col-md-4">
+          <h3>Requisitos mínimos en PC</h3>
+          <ul>
+            <li>Sistema Operativo: Windows 10 (64-bit)</li>
+            <li>Procesador (CPU): Intel Core i3-4170 @ 3.7Ghz o Intel i5-750 @ 2.67Ghz</li>
+            <li>Memoria RAM: 8 GB</li>
+            <li>Tarjeta Gráfica (GPU): NVidia 650TI / NVidia GT 740 o AMD R7 250X (2 GB VRAM)</li>
+            <li>DirectX: Versión 12</li>
+            <li>Almacenamiento: Al menos 55 GB a 80 GB de espacio libre (se recomienda SSD para un mejor rendimiento).
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
 
-  
+    <!-- PREGUNTAS FRECUENTES CON BOTONES COLLAPSE-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <h3>FAQ</h3>
+          <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta1"
+              aria-expanded="false" aria-controls="pregunta1">
+              ¿Se puede jugar sin conexión a Internet?
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="pregunta1">
+              <div class="card card-body" style="width: 300px;">
+                Sí, el modo un solo jugador está disponible totalmente offline, con "Drivatars" simulando otros
+                jugadores.
+              </div>
+            </div>
+          </div>
+
+          <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta2"
+              aria-expanded="false" aria-controls="pregunta2">
+              ¿Por qué el juego desapareció de las tiendas?
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="pregunta2">
+              <div class="card card-body" style="width: 300px;">
+                Debido a la finalización de acuerdos de licencia. El soporte oficial se mantiene en <a
+                  href="https://support.forza.net/hc/en-us">Forza Support</a>.
+              </div>
+            </div>
+          </div>
+
+          <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta3"
+              aria-expanded="false" aria-controls="pregunta3">
+              ¿Dónde puedo comprar el juego ahora?
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="pregunta3">
+              <div class="card card-body" style="width: 300px;">
+                Tras retirarse de la tienda oficial, opciones como Instant Gaming o Eneba pueden tener claves, o
+                mediante
+                copias físicas.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Forza Horizon 4 Wiki | By Raquel | &copy; 2026 Microsoft
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

@@ -6,9 +6,36 @@
     --texto-general: #EBEAEF;
 }
 
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 body{
     background-color: var(--fondo-general);
+    font-family: "Roboto", sans-serif;
     color: var(--texto-general);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .navbar-brand img{
@@ -33,13 +60,28 @@ body{
     border-color: var(--texto-general);
 }
 
-.btn-outline-success {
-    color: var(--color-acento);
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.dropdown-menu {
+    background-color: var(--fondo-secundario);
     border-color: var(--color-acento);
 }
 
-.btn-outline-success:hover {
+.dropdown-item {
+    color: var(--texto-general);
+}
+
+.dropdown-item:hover {
     background-color: var(--color-acento);
+    color: var(--fondo-general);
+}
+
+.form-control {
+    background-color: var(--texto-general);
+    border-color: var(--color-acento);
     color: var(--fondo-general);
 }
 
@@ -56,5 +98,63 @@ body{
     background-color: var(--fondo-secundario);
     color: var(--texto-general);
     border: 2px solid var(--color-acento);
+    border-radius: 8px;
     height: 100%;
+}
+
+.btn {
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: var(--color-acento);
+    border-color: var(--color-acento);
+    color: var(--fondo-general);
+}
+
+.btn-primary:hover {
+    background-color: var(--fondo-general);
+    border-color: var(--color-acento);
+    color: var(--color-acento);
+}
+
+.table {
+    --bs-table-bg: var(--fondo-general);
+    --bs-table-color: var(--texto-general);
+    --bs-table-border-color: var(--elementos-apoyo);
+    --bs-table-hover-bg: var(--fondo-secundario);
+    --bs-table-hover-color: var(--texto-general);
+    margin-top: 2.8rem;
+}
+
+.table thead {
+    background-color: var(--color-acento);
+    color: var(--fondo-general);
+}
+
+.accordion-item {
+    background-color: var(--fondo-secundario);
+    border-color: var(--elementos-apoyo);
+    color: var(--texto-general);
+}
+
+.accordion-button {
+    background-color: var(--fondo-secundario);
+    color: var(--texto-general);
+    font-size: 1.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--color-acento);
+    color: var(--fondo-general);
+}
+
+footer {
+    background-color: var(--fondo-secundario);
+    border-top: 2px solid var(--color-acento);
+    padding: 1.5rem 0;
+    text-align: center;
+    color: var(--texto-general);
+    font-size: 0.9rem;
 }
